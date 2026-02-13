@@ -19,3 +19,33 @@ header {
     padding: 20px;
     margin-bottom: 100px;
 }
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    background: url('polaroid.png') no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.hero {
+    text-align: center;
+    min-height: 800px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.details ul li {
+    background: url('qrcode-solid\ 1.png') no-repeat center left;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 40px;
+}
