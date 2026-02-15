@@ -44,8 +44,74 @@ main {
 }
 
 .details ul li {
-    background: url('qrcode-solid\ 1.png') no-repeat center left;
     list-style-type: none;
     margin: 10px 0;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 50px;
+    line-height: 30px;
+}
+
+.details ul li.wifi {
+    background: url("wifi-solid\ 1.svg") no-repeat center left;
+    background-size: 30px 30px;
+}
+
+.details ul li.qr {
+    background: url("qrcode-solid\ 1.svg") no-repeat center left;
+    background-size: 30px 30px;
+}
+
+.details ul li.cloud {
+    background: url("cloud-arrow-up-solid\ 1.svg") no-repeat center left;
+    background-size: 30px 30px;
+}
+
+.details ul li.photo {
+    background: url("photo-film-solid\ 1.svg") no-repeat center left;
+    background-size: 30px 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.cta {
+   margin-bottom: 170px;
+}
+
+.cta form {
+    display: flex;
+    gap: 24px;
+    margin: 30px auto 0;
+    padding: 40px 50px;
+    background: #D9D9D9;
+    border-radius: 40px;
+    width: fit-content;
+    background: linear-gradient(
+        to bottom,
+        #E2E2E2 0%,
+        #D6D7D6 100%
+    );
+}
+
+.cta input[type="text"] {
+    width: 645px;
+    padding: 22px 24px;
+    border: 0;
+    background-color: var(--main-bg-color);
+    font-size: 16px;
+}
+
+.cta input[type="button"] {
+    width: 254px;
+    text-transform: uppercase;
+    padding: 22px 24px;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border: 0;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
 }
